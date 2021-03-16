@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apnabankapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ApnaBankApp">
+        <activity android:name=".Balance"></activity>
+        <activity android:name=".aborted" />
+        <activity android:name=".TransactionSuccess" />
+        <activity android:name=".DaenerysTargaryen" />
+        <activity
+            android:name=".NewPayment"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".Contacts"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".Transactions"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".Payment"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".AccountDetails"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:background="#2B2A2A">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="290dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/white"
+        android:text="My Account Details"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="290dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/rounded_button"
+        android:text="Make Payment"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="290dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="92dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/rounded_button"
+        android:text="Transaction History"
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountDetails">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:text="Holder Name  :  Qazi Maaz Arshad"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:text="Bank Name  :  Apna Bank"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:text="Account Type  :  Savings Account"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:text="Account Number  :  50339187345"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:text="IFSC Code  :  APNA0567212"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:text="CIF Number  :  30917662051"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:text="UPI ID  :  89220750232@APNABANK"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="25dp"
+                android:text="Account Balance  :  Rs 9347.13"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="25dp"
+
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/white"
+            android:text="Check Balance"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

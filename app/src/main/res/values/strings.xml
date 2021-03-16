@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Apna Bank App</string>
+
+    <string name="Select_Bank">Choose a country</string>
+    <string name="name_daenerys_targaryen">Name : Daenerys Targaryen</string>
+    <string name="upi_id_5467899013_westbank">UPI ID : 5467899013@WESTBANK</string>
+    <string name="mobile_number_5467899013">Mobile Number : 5467899013</string>
+    <string name="account_number_60449178643">Account Number : 60449178643</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="proceed_to_payment">Proceed to Payment</string>
+
+    <string-array name="bank_arrays">
+        <item>Allahabad Bank</item>
+        <item>Apna Bank</item>
+        <item>Axis Bank</item>
+        <item>Bank of Baroda</item>
+        <item>Canara Bank</item>
+        <item>Citi Bank</item>
+        <item>HDFC Bank</item>
+        <item>ICICI Bank</item>
+        <item>Indian Bank</item>
+        <item>Kotak Mahindra Bank</item>
+        <item>Punjab National Bank</item>
+        <item>Paytm Payments Bank</item>
+        <item>State Bank of India</item>
+    </string-array>
+
+</resources>
